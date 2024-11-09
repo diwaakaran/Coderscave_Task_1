@@ -18,7 +18,7 @@ class Book {
         return author;
     }
 
-    @Override
+    
     public String toString() {
         return "Title: " + title + ", Author: " + author;
     }
@@ -61,7 +61,7 @@ public class LibraryManagementSystem {
             System.out.print("Enter your choice: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
